@@ -1,7 +1,7 @@
 import clsx from 'clsx';
 import css from './FriendListItem.module.css';
 
-export const FriendListItem = ({ data: { avatar, name, isOnline } }) => {
+export const FriendListItem = ({ avatar, name, isOnline }) => {
   return (
     <div className={css.container}>
       <img className={css.avatar} src={avatar} alt="Avatar" width="48" />
