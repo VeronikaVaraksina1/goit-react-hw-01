@@ -54,3 +54,7 @@ fieldset {
   padding: 0;
   resize: none;
 }
+
+body {
+  padding: 30px;
+}
