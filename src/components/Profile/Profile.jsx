@@ -1,3 +1,4 @@
+import clsx from 'clsx';
 import css from './Profile.module.css';
 
 export const Profile = ({
@@ -18,16 +19,16 @@ export const Profile = ({
 
       <ul className={css.list}>
         <li className={css.listItem}>
-          <span className={css.statsKey}>Followers</span>
-          <span className={css.statsValue}>{followers}</span>
+          <span className={css.stats}>Followers</span>
+          <span className={clsx(css.stats, css.statsValue)}>{followers}</span>
         </li>
         <li className={css.listItem}>
-          <span className={css.statsKey}>Views</span>
-          <span className={css.statsValue}>{views}</span>
+          <span className={css.stats}>Views</span>
+          <span className={clsx(css.stats, css.statsValue)}>{views}</span>
         </li>
         <li className={css.listItem}>
-          <span className={css.statsKey}>Likes</span>
-          <span className={css.statsValue}>{likes}</span>
+          <span className={css.stats}>Likes</span>
+          <span className={clsx(css.stats, css.statsValue)}>{likes}</span>
         </li>
       </ul>
     </div>

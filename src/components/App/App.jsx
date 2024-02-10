@@ -1,9 +1,9 @@
 import { Profile } from '../Profile/Profile';
 import { FriendList } from '../FriendList/FriendList';
 import { TransactionHistory } from '../TransactionHistory/TransactionHistory';
-import userData from '/src/userData.json';
-import friends from '/src/friends.json';
-import items from '/src/transactions.json';
+import userData from '../../userData.json';
+import friends from '../../friends.json';
+import items from '../../transactions.json';
 
 export const App = () => {
   return (
